@@ -67,3 +67,7 @@ In order to analyze the result obtained we begin reccaling the reward modificati
 At the end of the training we can observe that the agend solved its task in exactly 560, however proceding with the training we are capable to reach the best result at episode 1324 reaching also the more strict threshold of 13 for the "non step penalizing" reward function.
 
 In conclusion we tested the final traind agent on the environment observing that on an average it was able to collect an average of 16 banans for episode so we can considered the task completed sccesfuly!
+
+<video width="640" height="480" controls autoplay loop>
+  <source src="banana.mp4" type="video/mp4">
+</video>
