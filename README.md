@@ -34,4 +34,5 @@ The project is built on:
 * dqn_agent.py -> Agent Class
 * model.py -> the NN model for the DQN algorithm
 * best_model.pth -> the weights of the best model found during the training
-*. report.md -> Project report of the overall implementation 
+* report.md -> Project report of the overall implementation
+* banana.mp4 -> The video of the final trained model
