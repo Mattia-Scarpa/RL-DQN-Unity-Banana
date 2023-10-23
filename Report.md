@@ -68,8 +68,18 @@ In order to analyze the result obtained we begin reccaling the reward modificati
 
 At the end of the training we can observe that the agend solved its task in exactly 560, however proceding with the training we are capable to reach the best result at episode 1324 reaching also the more strict threshold of 13 for the "non step penalizing" reward function.
 
-In conclusion we tested the final traind agent on the environment observing that on an average it was able to collect an average of 16 banans for episode so we can considered the task completed sccesfuly!
+In conclusion we tested the final traind agent on the environment observing that on an average it was able to collect an average of 16 banans for episode so we can considered the task completed succesfuly!
 
-<video width="640" height="480" controls autoplay loop>
-  <source src="./banana.mp4" type="video/mp4">
-</video>
+[Trained Agent](banana.mp4)
+
+## Future Improvement
+
+As it has been stated in this project some improvement from the standard DQN has been implementend. In particular we have added the $Prioritized Experience Replay$, the Double DQN and the Dueling DQN structure.
+
+However this are not the only possible improvement that can be implemented.
+Future improvement might be done exploiting the extensions:
+* Learning from multi-step bootstrap targets [arXiv](https://arxiv.org/abs/1602.01783)
+* Distributional DQN [arXiv](https://arxiv.org/abs/1707.06887)
+* Noisy DQN [arXiv](https://arxiv.org/abs/1706.10295)
+
+By combining all this improvement together we are considering the rainbow algorithm that includo all these 6 modification working to improve the algorithm. [Rainbow](https://arxiv.org/abs/1710.02298)
