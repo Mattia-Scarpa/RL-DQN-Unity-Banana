@@ -64,10 +64,12 @@ The learning algorithm itself run the agent iteratively through repeated episode
 
 In order to analyze the result obtained we begin reccaling the reward modification since with this we should expect an average score lower than the non modified version. To overcome this "issue", keeping in mind the total number of step is 300 and that the banana collection will be a sparse event, we lowered the threshold to consider the task solved from $13$ to $11$. However we didn't stop the training at the first model cabable to solve the task but we kept learning for all the steps allowed.
 
+![Reward per Episode Plot](reward.png)
+
 At the end of the training we can observe that the agend solved its task in exactly 560, however proceding with the training we are capable to reach the best result at episode 1324 reaching also the more strict threshold of 13 for the "non step penalizing" reward function.
 
 In conclusion we tested the final traind agent on the environment observing that on an average it was able to collect an average of 16 banans for episode so we can considered the task completed sccesfuly!
 
 <video width="640" height="480" controls autoplay loop>
-  <source src="banana.mp4" type="video/mp4">
+  <source src="./banana.mp4" type="video/mp4">
 </video>
